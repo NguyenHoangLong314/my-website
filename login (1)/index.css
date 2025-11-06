@@ -1,0 +1,80 @@
+.contrainer{
+    min-width: 600px;
+    min-height: 500px;
+    background-color: #FFEBEF;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.logo,.login{
+    flex:1;
+}
+.name h2{
+    font-family: "Just Another Hand", cursive;
+    font-size: 50px;
+    color: #5E0124;
+    margin: 0%;
+}
+.logo h3{
+    font-family: "Just Another Hand", cursive;
+    font-size :30px ;
+    text-transform: uppercase;
+    margin: 0%;
+    margin-left: 50px;
+
+}
+.name{
+    display: flex;
+    margin-top:  50px;
+    margin-left: 30px;
+}
+.name img{
+    width: 64px;
+}
+
+.login img{
+    width:120px;
+    height: auto;}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon i {
+  color: #ff4f81;  /* màu hồng */
+  font-size: 18px;
+  margin-right: 10px;
+}
+.login button{
+    margin-top: 20px;
+    background-color: #FF7899;
+    border-radius: 30px;
+    height:30px;
+    width:20%;
+
+}
+.icon {
+  display: flex;
+  align-items: center;
+  background-color: #ffd6e0; /* nền hồng nhạt */
+  border: 1px solid #000;
+  border-radius: 30px;
+  width: 250px;
+  height: 35px;
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+.icon input {
+  border: none;
+  outline: none;
+  background: transparent;  /* bỏ nền trắng */
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
