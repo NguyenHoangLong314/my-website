@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif; /* Chọn phông chữ đơn giản dễ đọc */
+  margin: 0;                      /* Xóa khoảng trống mặc định */
+  padding: 0;                     /* Xóa khoảng trống mặc định */
+  background-color: #f5f5f5;      /* Màu nền nhẹ nhàng */
+  color: #333;                    /* Màu chữ xám đậm cho dễ đọc */
+padding-top: 80px;
+}
+.logo {
+  font-size: 22px;               /* Cỡ chữ logo */
+  font-weight: bold;             /* Đậm chữ */
+  color: #fff;                   /* Màu trắng */
+  letter-spacing: 1px;           /* Giãn cách nhẹ */
+}
+.navbar {
+  background-color: #1a1a1a;      /* Màu nền đen */
+  display: flex;                 /* Dàn ngang các phần tử */
+  align-items: center;           /* Căn giữa theo chiều dọc */
+  justify-content: space-between;/* Căn logo trái, menu giữa, nút phải */
+  padding: 15px 60px;            /* Khoảng cách trong thanh header */
+ position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;           /* Kéo rộng ra hết màn hình */
+  width: 95vw;       /* Bắt buộc chiếm toàn bộ chiều ngang viewport */
+  z-index: 1000;
+}
+.menu a {
+  color: #fff;               /* Trắng khi chưa hover */
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;    /* Hiệu ứng chuyển màu mượt */
+  margin: 0 20px;            /* Cách mỗi mục 20px */
+}
+.menu a:hover {
+     color: #ff6600;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+    margin: 0;
+}
+.logo-left
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contant-right {
+  background-color: #ff5722;     
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-left: 50px;
+}
+.contant-right h2
+{
+  margin-left: 50px; 
+}
+.main {
+  height: 100vh; /* Chiếm toàn bộ chiều cao khung nhìn (viewport height) */
+  display: flex; /* Dùng Flexbox để căn giữa */
+  flex-direction: column; /* Sắp xếp các phần tử theo cột (từ trên xuống dưới) */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  text-align: center; /* Căn giữa nội dung văn bản */
+  background-color: #fff; /* Màu nền trắng */
+}
+
+/* Tiêu đề chính */
+.main h1 {
+  font-size: 48px; /* Kích thước chữ lớn */
+  font-weight: bold; /* In đậm */
+  margin-bottom: 20px; /* Tạo khoảng cách dưới tiêu đề */
+}
+
+/* Dòng mô tả */
+.main p {
+  font-size: 20px; /* Cỡ chữ trung bình */
+  margin-bottom: 40px; /* Tạo khoảng cách với nút */
+  color: #333; /* Màu chữ xám đậm */
+}
+
+/* Nút KHÁM PHÁ NGAY */
+.kpn {
+  background-color: #007bff; /* Màu xanh chủ đạo */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Xóa viền */
+  padding: 14px 30px; /* Khoảng đệm trong nút (trên-dưới 14px, trái-phải 30px) */
+  border-radius: 8px; /* Bo góc nút */
+  font-size: 18px; /* Cỡ chữ nút */
+  cursor: pointer; /* Hiện bàn tay khi rê chuột */
+  transition: 0.3s; /* Hiệu ứng chuyển màu mượt mà khi hover */
+}
+
+/* Hiệu ứng khi rê chuột vào nút */
+.kpn:hover {
+  background-color: #0056b3; /* Đậm hơn khi hover */
+  transform: translateY(-2px); /* Nút hơi nhô lên nhẹ */
+}
+.service{
+  background-color:#f4f1f1; /* Màu xám nhạt nền */
+  padding: 80px 0; /* Khoảng cách trên dưới */
+  text-align: center; /* Căn giữa tiêu đề */
+}
+.service h2
+{
+ font-size: 36px;      /* tăng nhẹ kích thước chữ */
+  font-weight: 700;     /* đậm vừa phải (bold tiêu chuẩn) */
+  margin-bottom: 40px;  /* cách phần dưới 1 chút */
+  color: #222;          /* màu chữ tối vừa, không quá đen */
+  text-align: center;   /* căn giữa dòng */
+}
+.service-list {
+  display: flex; /* Hiển thị ngang */
+  justify-content: center; /* Căn giữa tổng thể */
+  gap: 40px; /* Khoảng cách giữa các thẻ */
+  flex-wrap: wrap; /* Khi màn hình nhỏ, các thẻ sẽ tự xuống hàng */
+}
+.service-card {
+  background: white; /* Nền trắng nổi bật trên nền xám */
+  border-radius: 12px; /* Bo góc */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  width: 320px; /* Chiều rộng cố định cho mỗi thẻ */
+  padding: 20px;
+  transition: 0.3s; /* Hiệu ứng mượt khi hover */
+}
+.service-card img 
+{
+  width: 100%; /* Ảnh phủ đầy thẻ */
+  border-radius: 8px; /* Bo góc ảnh */
+  margin-bottom: 20px; /* Tạo khoảng cách dưới ảnh */
+}
+.service-card:hover {
+  transform: translateY(-8px); /* Nhô lên nhẹ */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Đổ bóng mạnh hơn */
+}
+.service-card p {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.service-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*FOOTER*/
+ footer {
+      background-color: #181818;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 80px;
+      flex-wrap: wrap;
+    }
+       footer .footer-left,
+    footer .footer-right {
+      width: 45%;
+      min-width: 250px;
+    }
+     footer h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+      footer p {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+     .footer-right a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+      transition: color 0.3s;
+    }
+
+    .footer-right a:hover {
+      color:#ff5722;
+    }
