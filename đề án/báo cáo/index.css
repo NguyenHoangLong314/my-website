@@ -1,0 +1,44 @@
+body {
+  background: orange;
+  font-family: "Times New Roman", serif;
+  height: 100vh; /* Chiều cao toàn màn hình */
+  display: flex;
+  justify-content: center; /* Căn giữa ngang */
+  align-items: center;     /* Căn giữa dọc */
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 20px auto 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 15px;
+  background: pink;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 15px;
+  background: pink;
+  cursor: pointer;
+}
